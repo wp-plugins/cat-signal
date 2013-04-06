@@ -4,7 +4,7 @@ Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id
 Tags: internet defense league, activism, cat signal, freedom, online activism  
 Requires at least: 2.7  
 Tested up to: 3.5.1  
-Stable tag: 1.0.3  
+Stable tag: 1.0.4  
 
 A WordPress plugin to automatically load either the modal or the banner Cat Signal when there is an active campaign from the Internet Defense League.
 
@@ -21,25 +21,37 @@ At first glance, it may appear that the plugin isn't doing anything because you 
 **So how do I know if it's working?**
 If you're savvy, you can check the HTML source of your site and check that either the `modal.js` or `banner.js` is loading. If it is, you're good to go, and the banner or modal window will work automagically when the IDL launch a new campaign.
 
+If you're not as savvy, you can use the handy-dandy test link on the Cat Signal options page. This will display a banner or modal in the style of the actual alert while not actually displaying a pretty banner or graphic.
+
+If you'd rather check manually, you can also add `?_idl_test=1` to the end of any page URL configured to display the alert and get the same test result.
+
 == Installation ==
 
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
 == Screenshots ==
+
 1. Modal option
+
 2. Banner option
+
 3. Options page
 
 == Changelog ==
 
+= 1.0.4 =  
+- Fixed open `<div>` tag
+- added an option to define where the alert appears
+- added link to test that the script is working
+
 = 1.0.3 =  
-Removed `die` function that was making the page quit if no option was set. Reported [here](http://wordpress.org/support/topic/not-working-on-my-site-3) and [here](http://wordpress.org/support/topic/indexphp-quits-after-wordpress-meta-tag).
+- Removed `die` function that was making the page quit if no option was set. Reported [here](http://wordpress.org/support/topic/not-working-on-my-site-3) and [here](http://wordpress.org/support/topic/indexphp-quits-after-wordpress-meta-tag).
 
 = 1.0.2 =  
-Changed how the validation pulled the options
+- Changed how the validation pulled the options
 
 = 1.0.1 =  
-Added validation function
+- Added validation function
 
 = 1.0 =  
-Initial release.
+- Initial release.
