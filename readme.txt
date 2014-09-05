@@ -1,10 +1,10 @@
 === Internet Defense League Cat Signal ===
 Contributors: jazzs3quence
-Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AWM2TG
+Donate link: https://coinbase.com/checkouts/64d7bc3204fb355ff92f4c47b48cfa87
 Tags: internet defense league, activism, cat signal, freedom, online activism
 Requires at least: 2.7
-Tested up to: 3.9.1
-Stable tag: 1.0.9
+Tested up to: 4.0
+Stable tag: 1.1
 
 A WordPress plugin to automatically load either the modal or the banner Cat Signal when there is an active campaign from the Internet Defense League.
 
@@ -41,9 +41,13 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 == Upgrade Notice ==
 
-1.0.8 adds a new widget for the [Stop the Secrecy](https://openmedia.org/stopthesecrecy/resources) campaign. The code provided for this campaign adds a tall petition widget that is not responsive and the dimensions cannot be changed. Please be aware of this when chosing this option from the Cat Signal settings.
-
 == Changelog ==
+
+= 1.1 =
+- removed Stop the Secrecy option
+- removed the idl_test (temporarily, see [developer thread](https://groups.google.com/d/msg/internetdefenseleague/7OWDjdEDwJ0/HX1MBpjnbr8J))
+- tested with WordPress 4.0
+- added plugin icon
 
 = 1.0.9 =
 - fixed the fatal error on activation for PHP < 5.3

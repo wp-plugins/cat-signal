@@ -2,14 +2,11 @@
 #Internet Defense League Cat Signal
 
 Contributors: jazzs3quence
-Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AWM2TG
+Donate link: https://coinbase.com/checkouts/64d7bc3204fb355ff92f4c47b48cfa87
 Tags: internet defense league, activism, cat signal, freedom, online activism
 Requires at least: 2.7
-Tested up to: 3.8.1
-**1.0.9**
-- fixed the fatal error on activation for PHP < 5.3
-
-Stable tag: 1.0.8
+Tested up to: 4.0
+Stable tag: 1.1
 
 A WordPress plugin to automatically load either the modal or the banner Cat Signal when there is an active campaign from the Internet Defense League.
 
@@ -29,6 +26,12 @@ If you're savvy, you can check the HTML source of your site and check that eithe
 If you're not as savvy, you can use the handy-dandy test link on the Cat Signal options page. This will display a banner or modal in the style of the actual alert while not actually displaying a pretty banner or graphic.
 
 If you'd rather check manually, you can also add `?_idl_test=1` to the end of any page URL configured to display the alert and get the same test result.
+
+**1.1**
+- removed Stop the Secrecy option
+- removed the idl_test (temporarily, see [developer thread](https://groups.google.com/d/msg/internetdefenseleague/7OWDjdEDwJ0/HX1MBpjnbr8J))
+- tested with WordPress 4.0
+- added plugin icon
 
 **1.0.9**
 - fixed the fatal error on activation for PHP < 5.3
